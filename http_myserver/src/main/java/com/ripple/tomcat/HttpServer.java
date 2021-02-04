@@ -12,7 +12,7 @@ public class HttpServer {
      // 参考tomcat配置
      <Server port="8005" shutdown="SHUTDOWN">
      <Service name="Catalina">
-     <Connect port="8080" protocol="HTTP/1.1"
+     <Connect port="9000" protocol="HTTP/1.1"
      connectionTimeout="2000" redirectPort="8443"
      URIEncoding="UTF-8"/>
      <Engine name="Catalina" defaultHost="localhost">

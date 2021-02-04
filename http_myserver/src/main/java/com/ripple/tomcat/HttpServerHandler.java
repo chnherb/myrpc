@@ -23,7 +23,7 @@ public class HttpServerHandler {
             Invocation invocation = (Invocation) objectInputStream.readObject();
 
             // 2、从注册中心获取服务的列表
-            Class implClass = NativeRegistry.get(invocation.getInterfaceName(), new URL("localhost", 8080));
+            Class implClass = NativeRegistry.get(invocation.getInterfaceName(), new URL("localhost", 9000));
 
             // 3、调用服务 反射
             Method method = implClass.getMethod(invocation.getMethodName(), invocation.getParamTypes());

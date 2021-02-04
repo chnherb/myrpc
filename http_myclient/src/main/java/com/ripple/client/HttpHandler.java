@@ -39,7 +39,7 @@ public class HttpHandler implements Callable {
     }
 
     public synchronized Object call() throws Exception {
-        String result = post("localhost", 8080);
+        String result = post("localhost", 9000);
         return result;
     }
 

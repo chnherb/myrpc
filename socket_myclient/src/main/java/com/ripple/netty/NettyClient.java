@@ -1,5 +1,8 @@
 package com.ripple.netty;
 
+import com.alibaba.fastjson.JSON;
+import com.ripple.pojo.Invocation;
+import com.ripple.util.GsonUtil;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelOption;
@@ -24,22 +27,17 @@ public class NettyClient {
 
     //编写方法使用代理模式，获取一个代理对象
 
-    public Object getBean(final Class<?> serivceClass, final String providerName) {
+    public Object getBean(final Class<?> serivceClass) {
 
         return Proxy.newProxyInstance(Thread.currentThread().getContextClassLoader(),
                 new Class<?>[]{serivceClass}, (proxy, method, args) -> {
-
-                    System.out.println("(proxy, method, args) 进入...." + (++count) + " 次");
-                    //{}  部分的代码，客户端每调用一次 hello, 就会进入到该代码
                     if (client == null) {
                         initClient();
                     }
 
+                    Invocation invocation = new Invocation(serivceClass.getName(), method.getName(), args, method.getParameterTypes());
                     //设置要发给服务器端的信息
-                    //providerName 协议头 args[0] 就是客户端调用api sayHello(???), 参数
-                    client.setPara(providerName + args[0]);
-
-                    //
+                    client.setPara(JSON.toJSONString(invocation));
                     return executor.submit(client).get();
 
                 });

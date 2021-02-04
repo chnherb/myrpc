@@ -9,13 +9,12 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter implements 
 
     private ChannelHandlerContext context;//上下文
     private String result; //返回的结果
-    private String para; //客户端调用方法时，传入的参数
+    private Object para; //客户端调用方法时，传入的参数
 
 
     //与服务器的连接创建后，就会被调用, 这个方法是第一个被调用(1)
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        System.out.println(" channelActive 被调用  ");
         context = ctx; //因为我们在其它方法会使用到 ctx
     }
 
@@ -23,7 +22,6 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter implements 
     //
     @Override
     public synchronized void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        System.out.println(" channelRead 被调用  ");
         result = msg.toString();
         notify(); //唤醒等待的线程
     }
@@ -35,18 +33,15 @@ public class NettyClientHandler extends ChannelInboundHandlerAdapter implements 
 
     //被代理对象调用, 发送数据给服务器，-> wait -> 等待被唤醒(channelRead) -> 返回结果 (3)-》5
     public synchronized Object call() throws Exception {
-        System.out.println(" call1 被调用  ");
         context.writeAndFlush(para);
         //进行wait
         wait(); //等待channelRead 方法获取到服务器的结果后，唤醒
-        System.out.println(" call2 被调用  ");
         return result; //服务方返回的结果
 
     }
 
     //(2)
-    void setPara(String para) {
-        System.out.println(" setPara  ");
+    void setPara(Object para) {
         this.para = para;
     }
 }
