@@ -2,25 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33308c37-362e-4644-b6d2-ca545ddc216c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/myrpc_api/src/main/java/com/ripple/pojo/Invocation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myrpc_api/src/main/java/com/ripple/pojo/URL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/util/GsonUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/registry/NativeRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/util/GsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/ServerStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/ServerStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/tomcat/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/tomcat/HttpServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/tomcat/HttpServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/tomcat/HttpServerHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myrpc_api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myrpc_api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_myclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/http_myclient/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/pojo/Invocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/service/HelloService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/pojo/Invocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/pojo/URL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/service/HelloService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/socket_myclient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket_myclient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/ClientStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/ClientStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty/NettyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty/NettyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty/NettyClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty/NettyClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_myserver/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket_myserver/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/ServerStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/ServerStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/netty/NettyServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/netty/NettyServerHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,12 +32,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/util/GsonUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="142" column="62" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="62" />
+            <state relative-caret-position="278">
+              <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#213#214#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#475#476#0" expanded="true" />
                 <element signature="e#536#537#0" expanded="true" />
                 <element signature="e#594#595#0" expanded="true" />
               </folding>
@@ -59,93 +48,93 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socket_myclient/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="82" selection-end-column="21" />
+            <state relative-caret-position="191">
+              <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="85" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty/NettyClientHandler.java">
+        <entry file="file://$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/tomcat/DispatcherServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="11" column="38" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1360#1361#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty/NettyClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="47" column="42" lean-forward="true" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/netty/NettyServerHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/registry/NativeRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/ServerStart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" lean-forward="true" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/netty/NettyServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/ClientStart.java">
+        <entry file="file://$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/http_myclient/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socket_myserver/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="85" column="12" selection-start-line="73" selection-start-column="4" selection-end-line="85" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/internal/bind/TreeTypeAdapter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/reflect/TypeToken.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#1507#1508#0" expanded="true" />
+                <element signature="e#1539#1540#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonDeserializer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -169,8 +158,8 @@
       <find>channelActive 被调用</find>
       <find>getMethod</find>
       <find>getMethod(</find>
-      <find>INTEGER_ADAPTER</find>
       <find>localhost</find>
+      <find>INTEGER_ADAPTER</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -198,7 +187,6 @@
         <option value="$PROJECT_DIR$/myserver/pom.xml" />
         <option value="$PROJECT_DIR$/myclient/src/main/java/com/ripple/client/HttpClient.java" />
         <option value="$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/ClientStart.java" />
-        <option value="$PROJECT_DIR$/http_myclient/pom.xml" />
         <option value="$PROJECT_DIR$/http_myserver/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/http_myserver/http_myserver.iml" />
@@ -216,7 +204,6 @@
         <option value="$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/tomcat/HttpServerHandler.java" />
         <option value="$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpHandler.java" />
         <option value="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/util/GsonUtil.java" />
-        <option value="$PROJECT_DIR$/socket_myclient/pom.xml" />
         <option value="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/util/GsonUtil.java" />
         <option value="$PROJECT_DIR$/socket_myserver/pom.xml" />
         <option value="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty/NettyClient.java" />
@@ -224,6 +211,8 @@
         <option value="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/netty/NettyServerHandler.java" />
         <option value="$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/ServerStart.java" />
         <option value="$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/ClientStart.java" />
+        <option value="$PROJECT_DIR$/socket_myclient/pom.xml" />
+        <option value="$PROJECT_DIR$/http_myclient/pom.xml" />
       </list>
     </option>
   </component>
@@ -381,26 +370,6 @@
             <path>
               <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
               <item name="myrpc" type="462c0819:PsiDirectoryNode" />
-              <item name="http_myclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ripple" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myrpc" type="462c0819:PsiDirectoryNode" />
-              <item name="http_myclient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ripple" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myrpc" type="462c0819:PsiDirectoryNode" />
               <item name="http_myserver" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -432,16 +401,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ripple" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myrpc" type="462c0819:PsiDirectoryNode" />
-              <item name="http_myserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ripple" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
@@ -461,17 +420,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ripple" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myrpc" type="462c0819:PsiDirectoryNode" />
-              <item name="http_myserver" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ripple" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -676,6 +624,28 @@
               <item name="ripple" type="462c0819:PsiDirectoryNode" />
               <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.8.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myrpc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="gson-2.8.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="gson" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -685,7 +655,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612459478249" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612593343021" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -718,7 +688,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ClientStart (1)">
+  <component name="RunManager" selected="Application.ClientStart">
     <configuration name="ClientStart (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ripple.ClientStart" />
       <module name="socket_myclient" />
@@ -788,11 +758,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientStart" />
+        <item itemvalue="Application.ServerStart" />
         <item itemvalue="Application.ClientStart (1)" />
         <item itemvalue="Application.ServerStart (1)" />
         <item itemvalue="Application.GsonUtil" />
-        <item itemvalue="Application.ClientStart" />
-        <item itemvalue="Application.ServerStart" />
       </list>
     </recent_temporary>
   </component>
@@ -815,13 +785,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21039000" />
+    <option name="totallyTimeSpent" value="21290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19169329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19169329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -830,7 +800,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3119171" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3119171" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -992,13 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http_myclient/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http_myserver/http_myserver.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1027,20 +990,8 @@
     <entry file="file://$PROJECT_DIR$/myrpc_api/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/socket_myserver/src/main/java/com/ripple/service/HelloService.java" />
+    <entry file="file://$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/netty.java" />
     <entry file="file://$PROJECT_DIR$/myrpc_api/src/main/java/com/ripple/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1087,9 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1097,9 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,10 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1175,40 +1116,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="53" selection-start-line="13" selection-end-line="18" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/ClientStart.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/tomcat/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1262,7 +1173,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar!/com/google/gson/JsonDeserializer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1273,28 +1184,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socket_myclient/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="82" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socket_myserver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socket_myclient/src/main/java/com/ripple/util/GsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="142" column="62" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="62" />
+        <state relative-caret-position="278">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
             <element signature="e#594#595#0" expanded="true" />
           </folding>
@@ -1366,6 +1263,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="36" lean-forward="true" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket_myserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="12" selection-start-line="73" selection-start-column="4" selection-end-line="85" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_myserver/src/main/java/com/ripple/tomcat/DispatcherServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socket_myclient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="85" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_myclient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/http_myclient/src/main/java/com/ripple/client/HttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
